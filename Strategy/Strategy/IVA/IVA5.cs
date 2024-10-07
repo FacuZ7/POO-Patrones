@@ -5,18 +5,18 @@ using System.Text;
 
 namespace Strategy.IVA
 {
-    class IVA5
+    class IVA05 : IIVA
     {
-        private const float MULTIPLICADOR = 0.05f;
+        private const double MULTIPLICADOR = 0.05;
 
-        public float SumarIVA(float ImporteBruto)
+        public double SumarIVA(double ImporteBruto)
         {
             return ImporteBruto + (ImporteBruto * MULTIPLICADOR);
         }
 
-        public float RestarIVA(float ImporteBruto)
+        public double RestarIVA(double ImporteBruto)
         {
-            return (ImporteBruto / 1 + MULTIPLICADOR);
+            return (ImporteBruto / (1 + MULTIPLICADOR));
         }
     }
 }

@@ -15,12 +15,12 @@ namespace Strategy.Service
             _IVAService = IVAService;
         }
 
-        public float SumarIVA (float ImporteBruto) 
+        public double SumarIVA (double ImporteBruto) 
         {
             return _IVAService.SumarIVA(ImporteBruto);
         }
 
-        public float RestarIVA(float ImporteBruto)
+        public double RestarIVA(double ImporteBruto)
         {
             return _IVAService.RestarIVA(ImporteBruto);
         }

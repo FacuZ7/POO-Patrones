@@ -7,8 +7,8 @@ namespace Strategy.IVA
 {
     interface IIVA
     {
-        float SumarIVA(float ImporteBruto);
+        double SumarIVA(double ImporteBruto);
 
-        float RestarIVA(float ImporteBruto);
+        double RestarIVA(double ImporteBruto);
     }
 }
