@@ -1,0 +1,4 @@
+C:\Repositorios\Patrones\Creational\Singleton\Singleton\bin\Debug\Singleton.exe
+C:\Repositorios\Patrones\Creational\Singleton\Singleton\bin\Debug\Singleton.pdb
+C:\Repositorios\Patrones\Creational\Singleton\Singleton\obj\x86\Debug\Singleton.exe
+C:\Repositorios\Patrones\Creational\Singleton\Singleton\obj\x86\Debug\Singleton.pdb
